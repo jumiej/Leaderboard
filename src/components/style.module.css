@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+:root{
+    --color-dark:#2C3131;
+    --color-light:#F3F3F2;
+}
+
+.board{
+    text-align: center;
+    /* border: 1px solid red; */
+    background-color: blue;
+    border-end-end-radius: 30px;
+}
+
+.board .leaderboard{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.topRanked {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background-color: yellow;
+}
+
+.topFlex{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid purple; */
+    background-color: purple;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.topName {
+    font-weight: bold;
+    color: white;
+}
+
+.topStack {
+    color: white;
+    font-weight: bold;
+}
+
+.topScore {
+    color: white;
+    font-weight: bolder;
+}
+.topItem img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.downRanking {
+    height: 2100px;
+    background-color: blue;
+    border-top-right-radius: 30px;
+    /* margin-top: 0px; */
+}
+
+
+.flex {
+    height: 120px;
+    width: 1000px;
+    display: flex;
+    margin: 40px ;
+    border-radius: 10px;
+    background-color: #F3F3F2;
+    margin-top: 0px;
+    margin-left: 180px;
+     
+}
+
+.item {
+    display: flex;
+    padding: 2%;
+}
+
+
+.info{
+    margin-top: 200px;
+}
+
+
+.item .info {
+    margin-left: 30px;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+
+}
+.item .info .name {
+    color: black;
+    font-weight: 600;
+    /* border: 1px solid red; */
+}
+
+.info .stack{
+    margin-right: 30px;
+    color: black;
+    font-weight: 800;
+}
+
+.item img {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.flex .mark .score{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    color: black;
+    font-weight: 900;
+    margin-left: 500px;
+}
+
+/* #profile .flex .item{
+    display: flex;
+    align-items: center;
+}
+
+#profile .flex .img{
+    width: 20%;
+    border-radius: 50%;
+}
+
+#profile .flex .info{
+    padding: 1rem;
+}
+
+.text-dark{
+    color: var(--color-dark);
+} */
+
+
+@media screen and (max-width:650px) {
+    .board .leaderboard{
+        /* margin-top: 50px; */
+        font-size: 40px;
+    }
+
+    .topRanked{
+        height: 650px;
+        display: block;
+        background-color: rgb(207, 207, 190);
+        /* margin-top: 50px; */
+    }
+
+.topFlex{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left:80px;
+}
+
+.downRanking{
+    height: 2100px;  
+}
+
+.flex{
+    width: 500px;
+    margin-left: 42px;
+}
+
+.info {
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* margin-left: 35px; */
+}
+
+.info .stack{
+    margin-right: 0px;
+    color: brown;
+}
+
+.flex .mark .score{
+    margin-left: 100px;
+}
+
+}
+
